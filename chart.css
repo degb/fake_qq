@@ -1,0 +1,89 @@
+.chart-box {
+  margin: 10px;
+  width: 800px;
+  border: 1px solid #ddd;
+}
+.chart-box__header {
+  height: 40px;
+  padding-left: 20px;
+  line-height: 40px;
+  border-bottom: 1px solid #ddd;
+}
+.chart-box__main {
+  width: 800px;
+  height: 500px;
+  padding: 20px;
+  overflow-y: scroll;
+  border-bottom: 1px solid #ddd;
+}
+.chart-box__main li {
+  margin-bottom: 10px;
+}
+.chart-box__main li.main__right {
+  text-align: right;
+}
+.chart-box__main li.main__right .main_bg {
+  background-color: #3577e9;
+  color: #fff;
+}
+.chart-box__main li .main_avater {
+  display: inline-block;
+  vertical-align: top;
+  width: 40px;
+  height: 40px;
+  border-radius: 20px;
+  overflow: hidden;
+}
+.chart-box__main li .main_avater img {
+  width: 100%;
+}
+.chart-box__main li .main_bg {
+  display: inline-block;
+  word-break: break-all;
+  white-space: pre-wrap;
+  text-align: left;
+  padding: 10px 20px;
+  line-height: 30px;
+  background-color: #ccc;
+  border-radius: 20px;
+  max-width: calc(100% - 50px);
+}
+.chart-box__bottom {
+  position: relative;
+  padding: 10px;
+}
+.chart-box__bottom textarea {
+  width: 100%;
+  height: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  resize: none;
+  padding: 10px;
+  border: none;
+}
+.chart-box__bottom textarea:focus {
+  outline: none;
+}
+.chart-box__bottom .chart_send {
+  position: absolute;
+  width: 80px;
+  height: 40px;
+  border: none;
+  background-color: #e23329;
+  color: #fff;
+  border-radius: 10px;
+  bottom: 20px;
+  right: 20px;
+  cursor: pointer;
+}
+.chart-box__bottom .chart_send:focus {
+  outline: none;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ul {
+  list-style: none;
+}
